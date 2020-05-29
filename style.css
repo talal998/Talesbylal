@@ -1,0 +1,161 @@
+html, body { height: 100%; width: 100%; margin: 0px;padding:0px }
+
+#logoText{
+    font-size: 2em;
+    margin-top: -5px;
+    color: grey;
+
+}
+
+.navbar div{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: 0px solid green;
+}
+.navbar-brand{
+    padding-top:0px;
+    border: 0px solid black;
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+
+
+}
+.nav-item img{
+    margin-top: -13%;
+}
+
+#right {
+    top: 46%  !important;
+    left: 95% !important ;
+    padding:10px;
+    border: 0px solid red;
+    right: auto !important ;
+    color:white;
+    position: absolute;
+    cursor: pointer;
+}
+#left {
+    top: 46%  !important;
+    right: 95% !important ;
+    padding:10px;
+    border: 0px solid red;
+    left: auto !important ;
+    color:white;
+    position: absolute;
+    cursor: pointer;
+}
+.img-responsive-custom{
+    float:left; 
+    display:inline;
+    border: 0px solid blue;
+    max-height:100%;
+    max-width: auto;
+    margin:-0px;
+    margin-left:0%;
+    margin-right:3%;
+
+}
+
+
+.modal-dialog{
+
+    height: auto;
+   
+}
+
+
+.modal-dialog img{
+    border: 0px solid yellow;
+    height: 0%;
+    width: 100%;
+
+    
+}
+
+
+#base{
+    padding:0px;
+    display:flex;
+    border: 0px solid pink;
+    height:74%; max-width: 100%;
+    white-space: nowrap;
+    overflow:scroll;
+    overflow-y: hidden;
+    margin-right:-20px;
+
+}
+
+
+
+@media screen and (max-width :600px) {
+ 
+    #right {
+        margin-top: 0%  !important;
+        margin-left: -5% !important ;
+        right: 5% !important ;
+        color:transparent;
+        position: absolute;
+    }
+    .modal-dialog{
+        padding-left: 0px;
+        margin-left: 0px;
+    
+        width:100%;
+        max-height:100%;
+    
+    }
+    #left {
+        margin-top: 0%  !important;
+        margin-left: -5% !important ;
+        right: 5% !important ;
+        color:transparent;
+        position: absolute;
+    }
+    #base{
+        padding:0px;
+        display: flex;
+        flex-direction: column;
+        border: 0px solid pink;
+        height:auto; width: 100%;
+        white-space: nowrap;
+        overflow:hidden;
+        overflow: scroll;
+
+
+    }
+    .img-responsive-custom{
+        width:100%;
+        max-height:80%;
+        margin:-0px;
+        margin-bottom:2%;
+
+
+    }
+    .navbar-nav{
+        height: 95vh;
+        text-align: center;
+        padding-top: 5%;
+
+    }
+    .navbar-nav a{
+        padding: 4%; 
+        margin: 4%;  
+ 
+      }
+      .navbar-nav img{
+          margin: 1px;
+ 
+      }
+      .navbar-brand{
+        padding-top:2%;
+        border: 0px solid black;
+        font-family: 'Source Sans Pro', sans-serif;
+    
+    
+    
+    
+    }
+  
+    
+}
